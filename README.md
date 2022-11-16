@@ -5,11 +5,11 @@ To make it more challenging GraphQL used as query language.
 
 ## Tech
 
-ReactJS
-GraphQL
-Apollo
-ReactRouter
-JWT
+- ReactJS
+- GraphQL
+- Apollo
+- ReactRouter
+- JWT
 
 ## Usage
 
