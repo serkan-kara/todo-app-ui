@@ -133,7 +133,6 @@ const Todos = () => {
             <NewTodo onAddTodo={todoAddHandler} />
             <TodoList items={filteredTodos.items} onDeleteTodo={deleteTodoHandler} onCheckedChange={checkedChangeHandler} />
             <FilterTodos active={filteredTodos.active} onLinkClicked={(key) => filterTodos(key)} />
-            <button onClick={logoutHandle}>Logout</button>
         </ComponentContainer>
     )
 }

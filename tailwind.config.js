@@ -10,7 +10,7 @@ module.exports = {
         darkBlueGray: '#1f2a4b',
         coolGray: '#9ea3b2',
         oceanBlue: '#4a77e5',
-        errorRed: '#ff9900'
+        errorRed: '#ff2f2f'
       },
       fontFamily: ['Roboto', 'sans-serif']
     },

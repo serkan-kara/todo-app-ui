@@ -71,7 +71,7 @@ const Login = (props) => {
                 <Input placeholder='Email' type='text' inputRef={emailRef} />
                 <Input placeholder='Password' type='password' inputRef={passwordRef} />
                 {
-                    showAlert ? <InfoText text={'The username or password you entered is incorrect'} color='error' /> : null
+                    showAlert ? <InfoText text={'The username or password you entered is incorrect'} type='error' /> : null
                 }
                 <Link
                     className='text-sm text-darkBlueGray underline mt-4 mb-12'
