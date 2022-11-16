@@ -3,6 +3,8 @@
 A simple todo app made with ReactJS. To keep it simple react context used for state management.
 To make it more challenging GraphQL used as query language.
 
+Watch in [Youtube](https://www.youtube.com/watch?v=YVLCB8YoEVw)
+
 ## Tech
 
 - ReactJS
