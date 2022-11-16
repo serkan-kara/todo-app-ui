@@ -12,12 +12,10 @@ import { DELETETODO, MARKTODOCOMPLETED, MARKTODOUNCOMPLETED } from '../api/graph
 
 const Todos = () => {
 
-    const { user, setUser } = useAuth();
-    const logoutHandle = () => {
-        setUser(false);
-    }
+    const { user } = useAuth();
 
     const { queryError, queryLoading, data, refetch } = useQuery(TODOS, {
+        fetchPolicy: 'network-only',
         context: {
             headers: {
                 authorization: `Bearer ${user.token}`
